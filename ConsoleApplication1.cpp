@@ -38,6 +38,7 @@ int main()
     //値格納用変数
     std::vector<int> enemyArrivalTime;
 
+    // 読み込めなかったら異常終了するよ！！！！！！！！！！！！
     if (!ifs)
     {
         return -1;
